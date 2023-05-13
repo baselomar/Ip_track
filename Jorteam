@@ -38,6 +38,9 @@ printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m My IP\e[0m\n"
 
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;33m Track Ip\e[0m\n"
 
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m03\e[0m\e[1;31m]\e[0m\e[1;33m Telegram\e[0m\n"
+
+
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;33m Exit\e[0m\n"
 
 printf "\e[0m\n"
@@ -51,6 +54,10 @@ myipaddr
 elif [[ $option == 2 || $option == 02 ]]; then
 
 useripaddr
+
+elif [[ $option == 3 || $option == 02 ]]; then
+
+tele
 
 elif [[ $option == 0 || $option == 00 ]]; then
 
@@ -321,6 +328,39 @@ menu
 fi
 
 }
+
+tele() {
+
+banner 
+
+printf "https://t.me/jorteam"
+
+sleep 5
+
+printf "\e[0m\n"
+
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
+
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
+
+printf "\e[0m\n"
+
+read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit2
+
+if [[ $mainorexit2 == 1 || $mainorexit2 == 01 ]]; then
+
+banner
+
+menu
+
+elif [[ $mainorexit2 == 2 || $mainorexit2 == 02 ]]; then
+
+printf "\e[0m\n"
+
+printf "\e[0m\n"
+
+exit 1
+
 
 banner
 
