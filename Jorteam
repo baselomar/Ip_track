@@ -55,7 +55,7 @@ elif [[ $option == 2 || $option == 02 ]]; then
 
 useripaddr
 
-elif [[ $menu_option == 3 ]]; then
+elif [[ $option == 3 || $option == 03 ]]; then
 
 banner
 
