@@ -63,8 +63,10 @@ banner
 
 am start -a android.intent.action.VIEW https://t.me/jorteam
 
-
 elif [[ $option == 4 || $option == 04 ]]; then
+
+bash update.sh
+
 elif [[ $option == 0 || $option == 00 ]]; then
 
 sleep 1
