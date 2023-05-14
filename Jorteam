@@ -332,9 +332,9 @@ fi
 tele() {
 
 banner 
-
-printf "Thanks for using this tool And please Join us Telegram Group For More Tool And Game hack"
-|lolcat -p 1.7
+echo '
+Thanks for using this tool And please Join us Telegram Group For More Tool And Game hack
+'|lolcat -p 1.7
 printf "https://t.me/jorteam"
 
 sleep 5
