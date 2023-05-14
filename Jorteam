@@ -63,7 +63,7 @@ banner
 
 am start -a android.intent.action.VIEW https://t.me/jorteam
 clear
-
+cd Ip_track
 bash Jorteam
 elif [[ $option == 4 || $option == 04 ]]; then
 
