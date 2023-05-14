@@ -8,7 +8,7 @@ echo "
 ╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
 ╱╱╱╱╰╯╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯" | lolcat
 cd
-rm -rf ip-tracker
+rm -rf Ip-track
 cd
 git clone https://github.com/baselomar/Ip-track
 clear
