@@ -62,7 +62,9 @@ elif [[ $option == 3 || $option == 03 ]]; then
 banner
 
 am start -a android.intent.action.VIEW https://t.me/jorteam
+clear
 
+bash Jorteam
 elif [[ $option == 4 || $option == 04 ]]; then
 
 bash update.sh
