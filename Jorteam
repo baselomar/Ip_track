@@ -40,6 +40,8 @@ printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;33m Track Ip\e[0m
 
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m03\e[0m\e[1;31m]\e[0m\e[1;33m Telegram\e[0m\n"
 
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m04\e[0m\e[1;31m]\e[0m\e[1;33m Update TOOL\e[0m\n"
+
 
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;33m Exit\e[0m\n"
 
@@ -62,6 +64,7 @@ banner
 am start -a android.intent.action.VIEW https://t.me/jorteam
 
 
+elif [[ $option == 4 || $option == 04 ]]; then
 elif [[ $option == 0 || $option == 00 ]]; then
 
 sleep 1
