@@ -55,9 +55,12 @@ elif [[ $option == 2 || $option == 02 ]]; then
 
 useripaddr
 
-elif [[ $option == 3 || $option == 02 ]]; then
+elif [[ $menu_option == 3 ]]; then
 
-tele
+banner
+
+am start -a android.intent.action.VIEW https://t.me/jorteam
+
 
 elif [[ $option == 0 || $option == 00 ]]; then
 
