@@ -79,6 +79,8 @@ elif [[ $option == 0 || $option == 00 ]]; then
 
 sleep 1
 
+printf " \e[0m\e[1;41mThanks For Using This tool\e[0m\n"
+
 printf "\e[0m\n"
 
 printf "\e[0m\n"
@@ -198,6 +200,14 @@ menu
 elif [[ $mainorexit1 == 2 || $mainorexit1 == 02 ]]; then
 
 printf "\e[0m\n"
+printf " \e[0m\e[1;41mThanks For Using This tool\e[0m\n"
+
+
+
+
+
+
+
 
 printf "\e[0m\n"
 
@@ -326,6 +336,7 @@ menu
 elif [[ $mainorexit2 == 2 || $mainorexit2 == 02 ]]; then
 
 printf "\e[0m\n"
+printf " \e[0m\e[1;41mThanks For Using This tool\e[0m\n"
 
 printf "\e[0m\n"
 
