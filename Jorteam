@@ -30,7 +30,7 @@ O = '\033[33m'
 banner() {
 
 clear
-def heads():
+acho'
 
 	global head
 
@@ -101,7 +101,7 @@ def heads():
 def banner():
 
 	text1 = B+"""
-echo '
+echo 
 
                                                             
 
